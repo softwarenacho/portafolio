@@ -1,0 +1,50 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #2B2B2B;
+}
+
+.top{
+  margin-top:50px;
+}
+
+.ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.small-f{
+  font-size: 16px !important;
+}
+
+.blue-font {
+  color: #2196F3;
+}
+
+.codea-y {
+  color: #FFC842;
+}
+
+.codea-b {
+  color: #1F8DD3;
+}
+
+.blue-bg {
+  background-color: #2196F3;
+}
+
+.contact {
+  opacity: 75%;
+  color: white;
+}
+
+.round{
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.btn-round{
+  border-radius: 10%;
+}
+
+.vertical-align{
+  margin-top:20px;  
+}
