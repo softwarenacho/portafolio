@@ -39,6 +39,7 @@ body{
 .round{
   vertical-align: middle;
   border-radius: 50%;
+  align-self: center;
 }
 
 .btn-round{
@@ -46,5 +47,15 @@ body{
 }
 
 .vertical-align{
-  margin-top:20px;  
+  margin-top:20px;
+}
+
+.goku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.together img {
+  display: inline-block;
 }
