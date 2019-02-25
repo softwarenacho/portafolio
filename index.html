@@ -16,11 +16,11 @@
 <div class="container-fluid">
   <!-- Header -->
 	<div class="row blue-bg navbar navbar-fixed-top">
-		<div class="col-md-10">
-      <img src="http://i.imgur.com/IxusUHq.png" alt="sotwarenacho" class="img-responsive" />
+		<div class="col-sm-8 text-center">
+      <img src="http://i.imgur.com/IxusUHq.png" style="margin: 0 auto;" alt="sotwarenacho" class="img-responsive" />
 		</div>
-		<div class="col-md-2 vertical-align pull-right">
-      <div class="btn-group btn-group-lg" role="group" aria-label="...">
+		<div class="col-sm-4 vertical-align text-center">
+      <div class="" role="" aria-label="...">
         <a href="#about" class="btn btn-primary fa fa-user"></a>
         <a href="#projects" class="btn btn-success fa fa-laptop"></a>
         <a href="#contact" class="btn btn-info fa fa-phone"></a>
@@ -51,6 +51,70 @@
     </div>
 
     <div class="row">
+      <!-- Coleccionista -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.imgur.com/zVk7ts9.png" style="width: 70%;" alt="Coleccionista">
+          <div class="caption">
+            <h3>Coleccionista</h3>
+            <p class="small-f">Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión</p>
+            <div class="text-center">
+              <a href="https://softwarenacho.github.io/collector/" class="btn btn-info" role="button">Coleccionista</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Trivia -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.imgur.com/VGnFv3P.png" alt="Trivia">
+          <img class="img-responsive" src="https://i.imgur.com/5DVFOa5.png" alt="Trivia">
+          <div class="caption">
+            <h3>Trivia</h3>
+            <p class="small-f">Demostración de consumo de API's externas usando un mínimo de recursos, usando JS se obtiene una base de preguntas en diferentes categorías para después contestarlas en una interfaz simple e intuitiva pensada en una fácil experiencia de usuario con el objetivo de conectarla por medio de dispositivos como Chromecast a televisiones, así como su uso como una aplicación web progresiva lo que me permite guardar bases de preguntas como favoritas para su uso offline, desarrollo en proceso con Angular.</p>
+            <div class="text-center">
+              <a href="https://softwarenacho.github.io/trivia/" class="btn btn-info" role="button">Trivia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- ProjectFS -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="http://i.imgur.com/7LDul1k.png?1" alt="Project FS in game">
+          <img class="img-responsive" src="http://i.imgur.com/olhWIed.png?1" alt="Project FS player select screen">
+          <div class="caption">
+            <h3>Project FS</h3>
+            <p class="small-f">Fantasy Soccer fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de Fifa se creó una base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.</p>
+            <div class="text-center">
+              <a href="https://project-fs.herokuapp.com/" class="btn btn-info" role="button">ProjectFS</a>
+              <a href="https://project-fs.herokuapp.com/register" class="btn btn-primary" role="button">Registro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CodeaProposals -->
+      <div class="col-md-6 top" style="height:100%;">
+        <div class="thumbnail">
+          <img class="img-responsive" src="http://i.imgur.com/cT03rqF.png" alt="CodeaProposals proposals">
+          <img class="img-responsive" src="http://i.imgur.com/Ws7DFLG.png?1" alt="CodeaProposals show">
+          <div class="caption">
+            <h3>CodeaProposals</h3>
+            <p class="small-f">Proyecto de propuestas que integra vía twitter la oportunidad de sugerir y agregar a las celebridades o artistas favoritos a una base de datos que los cuenta como votos para la generación de listas de invitados en diferentes eventos,este servicio se utilizó como parte de talleres en TagCDMX, CampusParty y para CódigoX iniciativa de la presidencia de la Republica, enseñando a los asistentes a desarrollar a una aplicación cliente donde mandan propuestas a esta.</p>
+            <div class="text-center">
+              <a href="https://codea-codigox.herokuapp.com/proposals" class="btn btn-info" role="button">Versión CódigoX</a>
+              <a href="https://codeatag.herokuapp.com/proposals" class="btn btn-info" role="button">Versión TagCDMX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
       <!-- Medvent -->
       <div class="col-md-6 top">
         <div class="thumbnail">
@@ -71,42 +135,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-
-      <!-- ProjectFS -->
-      <div class="col-md-6 top">
-        <div class="thumbnail">
-          <img class="img-responsive" src="http://i.imgur.com/7LDul1k.png?1" alt="Project FS in game">
-          <img class="img-responsive" src="http://i.imgur.com/olhWIed.png?1" alt="Project FS player select screen">
-          <div class="caption">
-            <h3>Project FS</h3>
-            <p class="small-f">Fantasy Soccer fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de Fifa se creó una base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.</p>
-            <div class="text-center">
-              <a href="https://project-fs.herokuapp.com/" class="btn btn-info" role="button">ProjectFS</a>
-              <a href="https://project-fs.herokuapp.com/register" class="btn btn-primary" role="button">Registro</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CodeaProposals -->
-      <div class="col-md-6 top" style="height:100%;">
-        <div class="thumbnail">
-          <img class="img-responsive" src="http://i.imgur.com/cT03rqF.png" alt="CodeaProposals proposals">
-          <img class="img-responsive" src="http://i.imgur.com/Ws7DFLG.png?1" alt="CodeaProposals show">
-          <div class="caption">
-            <h3>CodeaProposals</h3>
-            <p class="small-f">Proyecto de propuestas que integra vía twitter la oportunidad de sugerir y agregar a las celebridades o artistas favoritos a una base de datos que los cuenta como votos para la generación de listas de invitados en diferentes eventos,este servicio se utilizó como parte de talleres en TagCDMX, CampusParty y para CódigoX iniciativa de la presidencia de la Republica, enseñando a los asistentes a desarrollar a una aplicación cliente donde mandan propuestas a esta.</p>
-            <div class="text-center">
-              <a href="https://codea-codigox.herokuapp.com/proposals" class="btn btn-info" role="button">Versión CódigoX</a>
-              <a href="https://codeatag.herokuapp.com/proposals" class="btn btn-info" role="button">Versión TagCDMX</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
     <!-- iVoy -->
@@ -183,6 +211,58 @@
     </div>
 
     <div class="row">
+      <!-- Gato -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" style="width: 75%;" src="https://i.imgur.com/pipFm49.png" alt="Gato">
+          <div class="caption">
+            <h3>Algoritmo para jugar gato</h3>
+            <p class="small-f">Demo web de un algoritmo para crear un contrincante del juego de gato, o tic tac toe, basado en el cuadro mágico de 3x3, que con operaciones simples permite al contrincante virtual nunca perder.</p>
+          </div>
+        </div>
+      </div>
+      <!-- MDMA -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.imgur.com/TOzW6JE.png" alt="MDMA">
+          <div class="caption">
+            <h3>MDMA</h3>
+            <p class="small-f">Página de contacto para cliente, incluye conexión a Facebook para recibir Like o compartir la página</p>
+          </div>
+            <div class="text-center">
+              <a href="https://softwarenacho.github.io/mdma/" class="btn btn-info" role="button">MDMA</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Experimental -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.imgur.com/1BCiGaq.png" alt="Experimental">
+          <div class="caption">
+            <h3>Fondo animado experimental</h3>
+            <p class="small-f">Animación secuencial del fondo de un página web basado en el paso del tiempo del usuario en la página, lo cual puede develar un fondo, promociones, incentivar compras en un esquema de recompensa visual para la experiencia del usuario.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Future Game -->
+      <div class="col-md-6 top">
+        <div class="thumbnail">
+          <img class="img-responsive" src="https://i.imgur.com/lbFEVel.png" alt="Future Game">
+          <div class="caption">
+            <h3>Future Game</h3>
+            <p class="small-f">Página web de presentación y contacto para cliente, cubre la necesidad de una productora músical de tener presencia web, información relevante, también logra recibir mensajes y demos a través de la página, así como compartir los últimos lanzamientos con la posibilidad de reproducirlos directamente sobre la aplicación.</p>
+          </div>
+            <div class="text-center">
+              <a href="http://www.futuregamemusic.com/" class="btn btn-info" role="button">Future game</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
       <!-- Locomotion -->
       <div class="col-md-6 top">
         <div class="thumbnail">
@@ -222,7 +302,7 @@
       <div class="jumbotron blue-bg contact text-center ubuntu">
         <h2>// Contacto</h2>
         <br /><br /><br />
-        <div class="btn-group">
+        <div class="btn-group btn-group-sm">
           <a href="https://www.facebook.com/GarpB" alt="Facebook" class="btn btn-lg btn-primary btn-round fa fa-facebook" target="blank"></a>
           <a href="https://twitter.com/softwarenacho" alt="Twitter" class="btn btn-lg btn-info btn-round fa fa-twitter" target="blank"></a>
           <a href="https://github.com/softwarenacho/" alt="Github" class="btn btn-lg btn-default btn-round fa fa-github" target="blank"></a>

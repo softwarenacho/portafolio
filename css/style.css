@@ -3,6 +3,10 @@ body{
   color: #2B2B2B;
 }
 
+.btn-group-sm a {
+  padding: 7.5px;
+}
+
 .top{
   margin-top:50px;
 }
@@ -40,6 +44,11 @@ body{
   vertical-align: middle;
   border-radius: 50%;
   align-self: center;
+}
+
+.btn-group {
+  min-width: max-content;
+  right: 10px;
 }
 
 .btn-round{
