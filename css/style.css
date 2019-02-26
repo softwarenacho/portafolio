@@ -68,3 +68,11 @@ body{
 .together img {
   display: inline-block;
 }
+
+.thumbnail, .tri-d, .btn {
+  filter: drop-shadow(1px 1px 1px #2196F3) drop-shadow(-1px -1px 1px #C62828);
+}
+
+.thumbnail:hover, .tri-d:hover, .btn:hover {
+  filter: drop-shadow(1px 1px 1px #C62828) drop-shadow(-1px -1px 2px #2196F3);
+}
